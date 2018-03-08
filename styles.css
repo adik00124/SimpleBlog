@@ -22,6 +22,10 @@ main{
 	background-color: white; 
 	padding:5px;
 }
+
+main section{
+	overflow: hidden;
+}
 footer{
 	padding: 5px;
 	text-align: center;
@@ -32,3 +36,11 @@ h1{
 	text-align: center;
 	font-size: 30px;
 }
+
+.images{
+	width: 50%;
+	height: auto;
+	float: right;
+	margin-left: 5px;
+}
+

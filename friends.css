@@ -1,6 +1,4 @@
 body{
-	font-family: Arial; 
-	font-size: 12px; 
 	background-color:  #303030;
 }
 header{
@@ -52,23 +50,31 @@ h2{
 	font-family: Francois One;
 }
 
-.images{
-	width: 50%;
-	height: auto;
-	float: right;
-}
-
-.section_text{
-font-size: 18px;
-text-align: left;
-}
-
 .white_section{
 	background-color:white; 
 }
 
-.section_text{
+.text_article{
 	font-family: Mina;
+}
+/*
+main section article .image_description{
+text-align: center;
+font-size: 18px;
+padding: 5px;
+}
+*/
+
+main section article img{
+	display: block;
+	margin: auto;
+	width: 50%;
+}
+
+main section article figure{
+	text-align: center;
+	font-size: 18px;
+	padding-top: 10px;
 }
 
 

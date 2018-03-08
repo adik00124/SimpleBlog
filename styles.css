@@ -13,18 +13,22 @@ nav{
 	background-color: #0fc2dc;
 }
 header nav a{
-	font-size: 15px;
+	font-size: 20px;
 	color: white;
 	padding: 10px;
 	text-decoration: none;
 }
+
+header nav a:hover{
+	color: black;
+}
 main{
-	background-color: white; 
 	padding:5px;
 }
 
 main section{
 	overflow: hidden;
+	padding: 10px;
 }
 footer{
 	padding: 5px;
@@ -34,6 +38,12 @@ footer{
 h1{
 	color: white;
 	text-align: center;
+	font-size: 35px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+h2{
 	font-size: 30px;
 }
 
@@ -41,6 +51,20 @@ h1{
 	width: 50%;
 	height: auto;
 	float: right;
-	margin-left: 5px;
 }
+
+.section_text{
+font-size: 20px;
+text-align: left;
+}
+
+.grey_section{
+	background-color:white; 
+}
+
+.white_section{
+	background-color:white; 
+}
+
+
 

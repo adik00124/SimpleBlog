@@ -1,24 +1,29 @@
+/*
+Font license info
+Copyright (C) 2016 by Dave Gandy
+Author:    Dave Gandy
+License:   SIL ()
+Homepage:  http://fortawesome.github.com/Font-Awesome/
+*/
+
 body{
+	font-family: Arial; 
+	font-size: 12px; 
 	background-color:  #303030;
 }
 header{
 	background-color: #545151; 
 	padding: 5px;
 	color: #ffffff;
-/*if we want to add an image as background
-	background-image: url("images/");
-	background-position: center;
-	background-repeat: no-repeat;
-*/
 }
-
 nav{
 	text-align: center;
 	background-color: #0fc2dc;
 	font-family: Mina;
 }
+
 header nav a{
-	font-size: 20px;
+	font-size: 25px;
 	color: white;
 	padding: 10px;
 	text-decoration: none;
@@ -35,6 +40,7 @@ main section{
 	overflow: hidden;
 	padding: 10px;
 }
+
 footer{
 	padding: 5px;
 	text-align: center;
@@ -46,42 +52,41 @@ footer{
 h1{
 	color: white;
 	text-align: center;
-	font-size: 45px;
-	letter-spacing: 2px;
+	font-size: 60px;
+	letter-spacing: 4px;
 	font-family: Francois One;
-	text-shadow: 1px 1px white;
+	text-shadow: 4px 4px grey;
+	text-transform: uppercase;
 }
 
 h2{
-	font-size: 30px;
+	font-size: 40px;
 	font-family: Francois One;
+}
+
+.images{
+	width: 50%;
+	height: auto;
+	float: right;
+}
+
+.section_text{
+font-size: 18px;
+text-align: left;
 }
 
 .white_section{
 	background-color:white; 
 }
 
-.text_article{
+.section_text{
 	font-family: Mina;
-}
-/*
-main section article .image_description{
-text-align: center;
-font-size: 18px;
-padding: 5px;
-}
-*/
-
-main section article img{
-	display: block;
-	margin: auto;
-	width: 50%;
+	font-size: 22px;
 }
 
-main section article figure{
-	text-align: center;
-	font-size: 18px;
-	padding-top: 10px;
-}
+
+
+
+
 
 

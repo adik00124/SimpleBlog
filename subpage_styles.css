@@ -1,13 +1,17 @@
 body{
-	font-family: Arial; 
-	font-size: 12px; 
 	background-color:  #303030;
 }
 header{
 	background-color: #545151; 
 	padding: 5px;
 	color: #ffffff;
+/*if we want to add an image as background
+	background-image: url("images/");
+	background-position: center;
+	background-repeat: no-repeat;
+*/
 }
+
 nav{
 	text-align: center;
 	background-color: #0fc2dc;
@@ -35,17 +39,18 @@ footer{
 	padding: 5px;
 	text-align: center;
 	font-family: Mina;
-	font-size: 20px;
+	font-size: 16px;
 	background-color: #0fc2dc;
 }
 
 h1{
 	color: white;
 	text-align: center;
-	font-size: 45px;
-	letter-spacing: 2px;
+	font-size: 50px;
+	letter-spacing: 4px;
 	font-family: Francois One;
-	text-shadow: 1px 1px white;
+	text-shadow: 4px 4px grey;
+	text-transform: uppercase;
 }
 
 h2{
@@ -53,23 +58,35 @@ h2{
 	font-family: Francois One;
 }
 
-.images{
-	width: 50%;
-	height: auto;
-	float: right;
-}
-
-.section_text{
-font-size: 18px;
-text-align: left;
-}
-
 .white_section{
 	background-color:white; 
 }
 
-.section_text{
+.text_article{
 	font-family: Mina;
+}
+/*
+main section article .image_description{
+text-align: center;
+font-size: 18px;
+padding: 5px;
+}
+*/
+
+main section article img{
+	display: block;
+	margin: auto;
+	width: 50%;
+}
+
+main section article figure{
+	text-align: center;
+	font-size: 18px;
+	padding-top: 10px;
+}
+
+main section article.text_article{
+	font-size: 18px;
 }
 
 

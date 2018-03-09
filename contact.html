@@ -3,7 +3,7 @@
 	<head>
 		
 		<meta charset="utf-8">
-		<title>Game of Thrones page</title>
+		<title>Contact page</title>
 		<link rel="stylesheet" href="contact_styles.css" type="text/css">
 		<link href="https://fonts.googleapis.com/css?family=Francois+One|Mina" rel="stylesheet">
 		<link rel="stylesheet" href="fontello/css/fontello.css" type="text/css">
@@ -14,7 +14,8 @@
 		<header>
 			<h1>Be in touch</h1>
 			<nav>
-				<a href="index.html">Main page</a>
+				<a href="index.html" class="wrapper">Main page
+					<div class="box">7</div></a>
 				<a href="cooperation.html">Cooperation</a>
 				<a href="contact.html">Contact</a>
 			</nav>
@@ -27,26 +28,29 @@
 				<div class="box_one">
  				    <form action="/contact">
 
-    				<label for="user_name">Name:</label>
-    			 	<input type="text" id="user_name" name="name" placeholder="Enter your name...">
+    				<label>Name:</label>
+    			 	<input class="user_data" type="text" name="name" placeholder="Enter your name...">
 
-    			 	<label for="user_email">E-mail:</label>
-    			 	<input type="text" id="user_email" name="email" placeholder="Enter your e-mail...">
+    			 	<label>E-mail:</label>
+    			 	<input class="user_data" type="text" name="email" placeholder="Enter your e-mail...">
 
-    			 	<label for="user_topic">Topic:</label>
-    			 	<input type="text" id="user_topic" name="topic" placeholder="Enter your topic...">
+    			 	<label>Topic:</label>
+    			 	<input class="user_data" type="text" name="topic" placeholder="Enter your topic...">
 
     				<label for="user_subject">Subject</label>
-    				<textarea id="user_subject" name="subject" placeholder="Write your ideas..." style="height:200px"></textarea>
+    				<textarea class="user_data" id="user_text_area" name="subject" placeholder="Write your ideas..."></textarea>
 
-    				<input type="submit" value="Send message">
+    				<input id="submit_button" type="submit" value="Click to send!">
   					</form>
 				</div>
 
-				 <figure>
-						<img src="images/envelop.jpg" alt="envelope">
-				</figure>
+				<div id="box_two">
+					<img src="images/envelop.jpg" alt="envelope">
+				</div>
 
+				
+						
+		
 			</section>
 		</main>
 		<footer>

@@ -7,8 +7,6 @@ Homepage:  http://fortawesome.github.com/Font-Awesome/
 */
 
 body{
-	font-family: Arial; 
-	font-size: 12px; 
 	background-color:  #303030;
 }
 header{
@@ -26,6 +24,7 @@ header nav a{
 	font-size: 25px;
 	color: white;
 	padding: 10px;
+	margin: 0 10px;
 	text-decoration: none;
 }
 
@@ -84,7 +83,25 @@ text-align: left;
 	font-size: 22px;
 }
 
-
+.wrapper {
+	display: inline-block;
+    position: relative;
+    text-align: center;
+    padding: 10px; 
+}
+  
+.wrapper .box {
+	width: 20px;
+    padding: 2px;
+    color: white;
+    margin-left: -10px;
+    margin-top: -18px;
+    position: absolute;
+    top: -0;
+    left: 100%;
+    background: red;
+    font-size: 20px;
+}
 
 
 

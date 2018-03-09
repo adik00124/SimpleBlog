@@ -1,0 +1,151 @@
+main section div.box_one{
+    float: left;
+    margin: auto;
+}
+
+main section figure{
+    display: block;
+    float: left;
+}
+
+main section figure img{
+    width: 60%;
+    height: auto;
+    margin-left: 250px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #545151;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+
+
+body{
+    background-color:  #303030;
+}
+header{
+    background-color: #545151; 
+    padding: 5px;
+    color: #ffffff;
+/*if we want to add an image as background
+    background-image: url("images/");
+    background-position: center;
+    background-repeat: no-repeat;
+*/
+}
+
+nav{
+    text-align: center;
+    background-color: #0fc2dc;
+    font-family: Mina;
+}
+header nav a{
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+header nav a:hover{
+    color: black;
+}
+main{
+    padding:5px;
+}
+
+main section{
+    overflow: hidden;
+    padding: 10px;
+}
+footer{
+    padding: 5px;
+    text-align: center;
+    font-family: Mina;
+    font-size: 16px;
+    background-color: #0fc2dc;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 4px;
+    font-family: Francois One;
+    text-shadow: 4px 4px grey;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 30px;
+    font-family: Francois One;
+}
+
+.white_section{
+    background-color:white; 
+}
+
+.text_article{
+    font-family: Mina;
+}
+/*
+main section article .image_description{
+text-align: center;
+font-size: 18px;
+padding: 5px;
+}
+*/
+
+main section article img{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+main section article figure{
+    text-align: center;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+main section article.text_article{
+    font-size: 18px;
+}
+
+

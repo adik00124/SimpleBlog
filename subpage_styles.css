@@ -1,10 +1,12 @@
 body{
 	background-color:  #303030;
 }
+
 header{
 	background-color: #545151; 
 	padding: 5px;
 	color: #ffffff;
+	
 /*if we want to add an image as background
 	background-image: url("images/");
 	background-position: center;
@@ -17,6 +19,7 @@ nav{
 	background-color: #0fc2dc;
 	font-family: Mina;
 }
+
 header nav a{
 	font-size: 20px;
 	color: white;
@@ -28,19 +31,22 @@ header nav a{
 header nav a:hover{
 	color: black;
 }
+
 main{
 	padding:5px;
+	background-color: white;
 }
 
-main section{
+main{
 	overflow: hidden;
 	padding: 10px;
 }
+
 footer{
 	padding: 5px;
 	text-align: center;
 	font-family: Mina;
-	font-size: 16px;
+	font-size: 18px;
 	background-color: #0fc2dc;
 }
 
@@ -59,10 +65,6 @@ h2{
 	font-family: Francois One;
 }
 
-.white_section{
-	background-color:white; 
-}
-
 .text_article{
 	font-family: Mina;
 }
@@ -74,19 +76,19 @@ padding: 5px;
 }
 */
 
-main section article img{
+main article img{
 	display: block;
 	margin: auto;
-	width: 50%;
+	width: 80%;
 }
 
-main section article figure{
+main article figure{
 	text-align: center;
 	font-size: 18px;
 	padding-top: 10px;
 }
 
-main section article.text_article{
+main article.text_article{
 	font-size: 18px;
 }
 
@@ -98,7 +100,7 @@ main section article.text_article{
 }
   
 .wrapper .box {
-	width: 20px;
+    width: 20px;
     padding: 2px;
     color: white;
     margin-left: -9px;
@@ -108,5 +110,20 @@ main section article.text_article{
     left: 100%;
     background: red;
     font-size: 17px;
+}
+
+@media only screen and (max-width: 640px){
+.responsive{
+	width: 100% !important;
+	height: auto;
+	}
+}
+
+footer img{
+    float: right;
+    margin-top: -1px;
+    border: 0;
+    width: 88px;
+    height: 31px;
 }
 

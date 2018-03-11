@@ -7,6 +7,7 @@
 		<link rel="stylesheet" href="contact_styles.css" type="text/css">
 		<link href="https://fonts.googleapis.com/css?family=Francois+One|Mina" rel="stylesheet">
 		<link rel="stylesheet" href="fontello/css/fontello.css" type="text/css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	</head>
 
@@ -25,37 +26,41 @@
 			<section class="white_section">
 				<h2>If you want to share your ideas with me, please fill in the form below!</h2>
 
-				<div class="box_one">
- 				    <form action="/contact">
+				<div class="flex-wrapper">
 
-    				<label>Name:</label>
-    			 	<input class="user_data" type="text" name="name" placeholder="Enter your name...">
+					<div class="box_one responsive">
+	 				    <form action="/contact">
 
-    			 	<label>E-mail:</label>
-    			 	<input class="user_data" type="text" name="email" placeholder="Enter your e-mail...">
+	    				<label for="name">Name:</label>
+	    			 	<input class="user_data" type="text" name="name" id="name" placeholder="Enter your name..." required>
 
-    			 	<label>Topic:</label>
-    			 	<input class="user_data" type="text" name="topic" placeholder="Enter your topic...">
+	    			 	<label for="email">E-mail:</label>
+	    			 	<input class="user_data" type="text" name="email" id="email" placeholder="Enter your e-mail..." required>
 
-    				<label for="user_subject">Subject</label>
-    				<textarea class="user_data" id="user_text_area" name="subject" placeholder="Write your ideas..."></textarea>
+	    			 	<label for="topic">Topic:</label>
+	    			 	<input class="user_data" type="text" name="topic" id="topic" placeholder="Enter your topic..." required>
 
-    				<input id="submit_button" type="submit" value="Click to send!">
-  					</form>
+	    				<label for="user_text_area">Subject</label>
+	    				<textarea class="user_data" id="user_text_area" name="subject" placeholder="Write your ideas..." required></textarea>
+
+	    				<input id="submit_button" type="submit" value="Click to send!">
+	  					</form>
+					</div>
+ 
+					<div id="box_two">
+						<img id="image" src="images/envelop.jpg" alt="envelope">
+					</div>
+
 				</div>
 
-				<div id="box_two">
-					<img src="images/envelop.jpg" alt="envelope">
-				</div>
-
-				
-						
-		
 			</section>
 		</main>
 		<footer>
 			Serials Blog &copy; 2018: Adrian Długosz
 			<i class="icon-mail">dlugosz.ad@gmail.com</i>
+			<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    			<img src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Poprawny CSS!"/>
+    		</a>
 		</footer>
 	</body>
 

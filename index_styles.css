@@ -9,11 +9,13 @@ Homepage:  http://fortawesome.github.com/Font-Awesome/
 body{
 	background-color:  #303030;
 }
+
 header{
 	background-color: #545151; 
 	padding: 5px;
 	color: #ffffff;
 }
+
 nav{
 	text-align: center;
 	background-color: #0fc2dc;
@@ -31,6 +33,7 @@ header nav a{
 header nav a:hover{
 	color: black;
 }
+
 main{
 	padding:5px;
 }
@@ -44,7 +47,7 @@ footer{
 	padding: 5px;
 	text-align: center;
 	font-family: Mina;
-	font-size: 25px;
+	font-size: 20px;
 	background-color: #0fc2dc;
 }
 
@@ -101,6 +104,21 @@ text-align: left;
     left: 100%;
     background: red;
     font-size: 20px;
+}
+
+@media only screen and (max-width: 640px){
+	.responsive{
+		width: 100% !important;
+		height: auto;
+		}
+}
+
+footer img{
+    float: right;
+    margin-top: 1px;
+    border: 0;
+    width: 88px;
+    height: 31px;
 }
 
 
